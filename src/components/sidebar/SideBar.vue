@@ -44,7 +44,7 @@
       </template>
       <template v-else>
         <OverviewCarousel
-          v-if="route.name !== ROUTE_NAME.overview"
+          v-if="route.name !== ROUTE_NAME.overview && route.name !== ROUTE_NAME.settings"
           class="w-xs"
         />
         <div class="card">
